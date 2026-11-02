@@ -62,7 +62,7 @@ class Bank:
         for account in store:
             if account.account_number == enter_account_number:
                 return account
-            return None
+        return None
     def view_everyone_accounts(self):
         print("\t View Everyone Account")
         print("\t =====================")
